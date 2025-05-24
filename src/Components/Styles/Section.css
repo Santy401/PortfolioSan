@@ -1,0 +1,49 @@
+.contentSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    top: -30px;
+}
+
+.contentSection h1 {
+    font-family: var(--font-Rukik);
+    font-weight: 500;
+    margin: 20px 10px 10px 0px;
+}
+
+.description {
+    font-size: 1.2rem;
+    width: 72%;
+    line-height: 1.6;
+    color: var(--text-color-SG);
+}
+
+.bt-more {
+    width: fit-content;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    color: var(--text-color-SG);
+    font-size: 1rem;
+    transition: 300ms ease-in-out;
+}
+
+.bt-more:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border-color: 1px solid var(--bg-color);
+}
+
+.developer {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    top: -30px;
+    border-image-repeat: 10px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: top;
+}
