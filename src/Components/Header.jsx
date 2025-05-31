@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './Styles/Header.css'
-import { motion } from 'framer-motion'
+import { Menu, MoonStar, MonitorCog, Sun } from 'lucide-react'
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false)
@@ -56,14 +56,14 @@ const Header = () => {
                 <li><a href="#">Resume</a></li>
 
                 <div className='contentDesplegateBt'>
-                    <label className='desplegateBt' onClick={toggleMenu}>&#8943;</label>
+                    <label className='desplegateBt' ><Menu className='icon-menu' onClick={toggleMenu} /></label>
                     <div className={`desplegable ${showMenu ? 'active' : 'inactive'}`}>
                         <a href="">Github</a>
                         <a href="">Email</a>
                         <div className='configTheme'>
-                            <button onClick={() => setTheme('dark')}>D</button>
-                            <button onClick={() => setTheme('system')}>S</button>
-                            <button onClick={() => setTheme('light')}>L</button>
+                            <button onClick={() => setTheme('dark')}><MoonStar className='icons'/></button>
+                            <button onClick={() => setTheme('system')}><MonitorCog className='icons '/></button>
+                            <button onClick={() => setTheme('light')}><Sun className='icons'/></button>
                         </div>
                     </div>
                 </div>

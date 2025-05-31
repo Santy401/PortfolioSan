@@ -1,0 +1,21 @@
+.content-d  {
+    text-align: center;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+}
+
+.content-d h2 {
+    font-size: 2.7rem;
+}
+
+.content-d p {
+    font-size: 1rem;
+}
+
+.content-carts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 40px 50px;
+}

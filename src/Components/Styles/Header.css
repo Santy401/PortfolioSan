@@ -39,7 +39,7 @@
   border-radius: 20px;
   margin-left: 20px;
   cursor: pointer;
-  background-color: var(--bg-color);
+  background-color: transparent;
   border: 1px solid var(--border-color);
 }
 
@@ -55,6 +55,14 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.icon-menu {
+  scale: .9;
+}
+
+.icons {
+  scale: .8;
+  margin-top: 5px;
+}
 
 .contentDesplegateBt {
   position: relative;

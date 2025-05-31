@@ -1,14 +1,16 @@
 //-----//
 import Header from './Components/Header'
 import Section from './Components/Section'
+import { Description } from './Components/Description'
 //-----//
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Section />
-    </div>
+      <Description />
+    </>
   )
 }
 
